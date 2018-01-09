@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C6085AD72005406300659EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6085AD62005406300659EB3 /* Assets.xcassets */; };
+		C6085AE32005572B00659EB3 /* CustomNotificationSound5.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6085AE22005572B00659EB3 /* CustomNotificationSound5.5.wav */; };
 		C642671A2001B6FE00CE9AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64267192001B6FE00CE9AD2 /* AppDelegate.swift */; };
 		C642671C2001B6FE00CE9AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642671B2001B6FE00CE9AD2 /* ViewController.swift */; };
 		C642671F2001B6FE00CE9AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C642671D2001B6FE00CE9AD2 /* Main.storyboard */; };
 		C64267222001B6FE00CE9AD2 /* LocalNotificationExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C64267202001B6FE00CE9AD2 /* LocalNotificationExample.xcdatamodeld */; };
-		C64267242001B6FE00CE9AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C64267232001B6FE00CE9AD2 /* Assets.xcassets */; };
 		C64267272001B6FE00CE9AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64267252001B6FE00CE9AD2 /* LaunchScreen.storyboard */; };
 		C64267322001B6FE00CE9AD2 /* LocalNotificationExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64267312001B6FE00CE9AD2 /* LocalNotificationExampleTests.swift */; };
 		C642673D2001B6FE00CE9AD2 /* LocalNotificationExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642673C2001B6FE00CE9AD2 /* LocalNotificationExampleUITests.swift */; };
+		C642674B2001B78300CE9AD2 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642674A2001B78300CE9AD2 /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C6085AD62005406300659EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6085AE22005572B00659EB3 /* CustomNotificationSound5.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CustomNotificationSound5.5.wav; sourceTree = "<group>"; };
 		C64267162001B6FE00CE9AD2 /* LocalNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64267192001B6FE00CE9AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C642671B2001B6FE00CE9AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C642671E2001B6FE00CE9AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C64267212001B6FE00CE9AD2 /* LocalNotificationExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LocalNotificationExample.xcdatamodel; sourceTree = "<group>"; };
-		C64267232001B6FE00CE9AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C64267262001B6FE00CE9AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C64267282001B6FE00CE9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C642672D2001B6FE00CE9AD2 /* LocalNotificationExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +52,7 @@
 		C64267382001B6FE00CE9AD2 /* LocalNotificationExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalNotificationExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C642673C2001B6FE00CE9AD2 /* LocalNotificationExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationExampleUITests.swift; sourceTree = "<group>"; };
 		C642673E2001B6FE00CE9AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C642674A2001B78300CE9AD2 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				C64267192001B6FE00CE9AD2 /* AppDelegate.swift */,
+				C6085AE22005572B00659EB3 /* CustomNotificationSound5.5.wav */,
 				C642671B2001B6FE00CE9AD2 /* ViewController.swift */,
+				C642674A2001B78300CE9AD2 /* Alerts.swift */,
 				C642671D2001B6FE00CE9AD2 /* Main.storyboard */,
-				C64267232001B6FE00CE9AD2 /* Assets.xcassets */,
 				C64267252001B6FE00CE9AD2 /* LaunchScreen.storyboard */,
 				C64267282001B6FE00CE9AD2 /* Info.plist */,
 				C64267202001B6FE00CE9AD2 /* LocalNotificationExample.xcdatamodeld */,
+				C6085AD62005406300659EB3 /* Assets.xcassets */,
 			);
 			path = LocalNotificationExample;
 			sourceTree = "<group>";
@@ -235,8 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6085AE32005572B00659EB3 /* CustomNotificationSound5.5.wav in Resources */,
 				C64267272001B6FE00CE9AD2 /* LaunchScreen.storyboard in Resources */,
-				C64267242001B6FE00CE9AD2 /* Assets.xcassets in Resources */,
+				C6085AD72005406300659EB3 /* Assets.xcassets in Resources */,
 				C642671F2001B6FE00CE9AD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			files = (
 				C642671C2001B6FE00CE9AD2 /* ViewController.swift in Sources */,
 				C64267222001B6FE00CE9AD2 /* LocalNotificationExample.xcdatamodeld in Sources */,
+				C642674B2001B78300CE9AD2 /* Alerts.swift in Sources */,
 				C642671A2001B6FE00CE9AD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
