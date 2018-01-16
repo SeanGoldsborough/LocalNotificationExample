@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C6085AD72005406300659EB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6085AD62005406300659EB3 /* Assets.xcassets */; };
 		C6085AE32005572B00659EB3 /* CustomNotificationSound5.5.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6085AE22005572B00659EB3 /* CustomNotificationSound5.5.wav */; };
+		C6085AE5200EBF0400659EB3 /* CustomNotificationSound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C6085AE4200EBF0300659EB3 /* CustomNotificationSound2.wav */; };
 		C642671A2001B6FE00CE9AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64267192001B6FE00CE9AD2 /* AppDelegate.swift */; };
 		C642671C2001B6FE00CE9AD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C642671B2001B6FE00CE9AD2 /* ViewController.swift */; };
 		C642671F2001B6FE00CE9AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C642671D2001B6FE00CE9AD2 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		C6085AD62005406300659EB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6085AE22005572B00659EB3 /* CustomNotificationSound5.5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CustomNotificationSound5.5.wav; sourceTree = "<group>"; };
+		C6085AE4200EBF0300659EB3 /* CustomNotificationSound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = CustomNotificationSound2.wav; sourceTree = "<group>"; };
 		C64267162001B6FE00CE9AD2 /* LocalNotificationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalNotificationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64267192001B6FE00CE9AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C642671B2001B6FE00CE9AD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				C64267192001B6FE00CE9AD2 /* AppDelegate.swift */,
 				C6085AE22005572B00659EB3 /* CustomNotificationSound5.5.wav */,
+				C6085AE4200EBF0300659EB3 /* CustomNotificationSound2.wav */,
 				C642671B2001B6FE00CE9AD2 /* ViewController.swift */,
 				C642674A2001B78300CE9AD2 /* Alerts.swift */,
 				C642671D2001B6FE00CE9AD2 /* Main.storyboard */,
@@ -244,6 +247,7 @@
 				C6085AE32005572B00659EB3 /* CustomNotificationSound5.5.wav in Resources */,
 				C64267272001B6FE00CE9AD2 /* LaunchScreen.storyboard in Resources */,
 				C6085AD72005406300659EB3 /* Assets.xcassets in Resources */,
+				C6085AE5200EBF0400659EB3 /* CustomNotificationSound2.wav in Resources */,
 				C642671F2001B6FE00CE9AD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
